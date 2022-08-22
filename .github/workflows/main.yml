@@ -24,9 +24,9 @@ jobs:
 
     env:
       APP_ID: ${{ secrets.APP_ID }}
-      APP_SECRET: ${{ secrets.APP_SECRET }}
-      TEMPLATE_ID: ${{ secrets.TEMPLATE_ID }}
+      APP_SECRET: ${{ secrets.APP_SECRET }}+1
+      TEMPLATE_ID: ${{ secrets.TEMPLATE_ID }}+2
       USER_ID: ${{ secrets.USER_ID }}
-      START_DATE: ${{ secrets.START_DATE }}
-      BIRTHDAY: ${{ secrets.BIRTHDAY }}
-      CITY: ${{ secrets.CITY }}
+      START_DATE: ${{ secrets.START_DATE }}+3
+      BIRTHDAY: ${{ secrets.BIRTHDAY }}+4
+      CITY: ${{ secrets.CITY }}+5
